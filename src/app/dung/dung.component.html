@@ -1,3 +1,6 @@
-<ul *ngFor="let name of names">
-  <li>{{ name }}</li>
+<ul *ngFor="let user of userList; index as i">
+  <div>{{user.id}}</div>
+  <div>{{user.name}}</div>
+  <div>{{user.email}}</div>
+
 </ul>
